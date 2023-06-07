@@ -1,0 +1,31 @@
+footer {
+    width: 100%;
+    display: flex;
+    gap: .5rem;
+    padding: .5rem;
+    box-shadow: 0px -3px 10px rgba(0, 0, 0, 0.3);
+
+    .footer__button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        aspect-ratio: 1/1;
+        background-color: $secondary-color;
+        border-radius: 50%;
+    }
+
+    .footer__chat {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem;
+        background-color: $secondary-color;
+        border-radius: 2rem;
+
+        i {
+            font-size: 1.3rem;
+        }
+    }
+}
