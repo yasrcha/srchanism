@@ -12,12 +12,12 @@ body {
 
 @font-face {
   font-family: "MainFont";
-  src: url("https://yasrcha.github.io/srchanism/assets/fonts/gg-sans-regular.ttf");
+  src: url("../../assets/fonts/ggsans-Normal.woff") format("woff");
   font-weight: normal;
 }
 @font-face {
   font-family: "MainFont";
-  src: url("https://yasrcha.github.io/srchanism/assets/fonts/gg-sans-bold.ttf");
+  src: url("../../assets/fonts/ggsans-Bold.woff") format("woff");
   font-weight: bold;
 }
 * {
