@@ -12,12 +12,12 @@ body {
 
 @font-face {
   font-family: "MainFont";
-  src: url(/assets/fonts/gg\ sans\ Regular.ttf);
+  src: url(../../assets/fonts/gg-sans-regular.ttf);
   font-weight: normal;
 }
 @font-face {
   font-family: "MainFont";
-  src: url(/assets/fonts/gg\ sans\ Bold.ttf);
+  src: url(../../assets/fonts/gg-sans-bold.ttf);
   font-weight: bold;
 }
 * {
