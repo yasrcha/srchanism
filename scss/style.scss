@@ -1,10 +1,12 @@
-@import './abstract/variables.scss';
+@import './abstract/variables';
 
-@import './base/base.scss';
-@import './base//fonts.scss';
-@import './base//reset.scss';
+@import './base/base';
+@import './base/fonts';
+@import './base/reset';
 
-@import './layout/alerts.scss';
-@import './layout/footer.scss';
-@import './layout/header.scss';
-@import './layout/main.scss'; 
+@import './components/message';
+
+@import './layout/alerts';
+@import './layout/footer';
+@import './layout/header';
+@import './layout/main'; 
