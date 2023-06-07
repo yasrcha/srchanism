@@ -12,12 +12,12 @@ body {
 
 @font-face {
   font-family: "MainFont";
-  src: url(../../assets/fonts/gg\ sans\ Regular.ttf);
+  src: url(/assets/fonts/gg\ sans\ Regular.ttf);
   font-weight: normal;
 }
 @font-face {
   font-family: "MainFont";
-  src: url(../../assets/fonts/gg\ sans\ Bold.ttf);
+  src: url(/assets/fonts/gg\ sans\ Bold.ttf);
   font-weight: bold;
 }
 * {
@@ -29,7 +29,7 @@ body {
 .alert__box {
   position: absolute;
   z-index: 1;
-  display: flex;
+  display: none;
   flex-direction: column;
   align-items: center;
   justify-content: center;
