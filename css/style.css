@@ -14,13 +14,17 @@ body {
 .container {
   position: relative;
   height: 100%;
-  max-height: 675px;
   width: 100%;
-  max-width: 375px;
   display: flex;
-  flex-direction: column;
   background-color: #363940;
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+.main__content {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 @font-face {
@@ -32,6 +36,14 @@ body {
   font-family: "MainFont";
   src: url("https://yasrcha.github.io/srchanism/assets/fonts/gg-sans-bold.ttf");
   font-weight: bold;
+}
+@media (min-width: 768px) {
+  .container nav {
+    width: 30%;
+    max-width: 200px;
+    position: initial;
+    display: flex;
+  }
 }
 * {
   margin: 0;
@@ -145,6 +157,7 @@ header .header__left {
   gap: 1.5rem;
 }
 header .header__left i {
+  cursor: pointer;
   font-size: 2rem;
 }
 header .header__left p {
@@ -176,6 +189,88 @@ main {
   justify-content: flex-end;
   gap: 0.5rem;
   padding: 1rem;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: -100%;
+  z-index: 1;
+  width: 50%;
+  max-width: 200px;
+  height: 100%;
+  background-color: #303136;
+  transition: 0.5s;
+}
+nav .nav__top {
+  height: 64px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 1rem;
+  padding-left: 0.3rem;
+  box-shadow: -3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+nav .nav__top div {
+  display: flex;
+  align-items: center;
+}
+nav .nav__top div img {
+  width: 25px;
+}
+nav .nav__top div p {
+  position: relative;
+  top: -1px;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+nav .nav__top i {
+  font-size: 1.3rem;
+}
+nav .nav__mid {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+}
+nav .nav__mid .convite {
+  background-color: #4E525B;
+  text-align: center;
+  border-radius: 3px;
+  padding: 0.4rem;
+  font-size: 0.8rem;
+}
+nav .nav__mid section .categoria {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+nav .nav__mid section .categoria .categoria__title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .nav__mid section .categoria .categoria__title div {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+nav .nav__mid section .categoria .categoria__title div i {
+  font-size: 0.75rem;
+}
+nav .nav__mid section .categoria .categoria__title div p {
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+nav .nav__mid section .categoria .categoria__title i {
+  font-size: 0.7rem;
+}
+nav .nav__mid section .categoria ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
 }
 
 /*# sourceMappingURL=style.css.map */
