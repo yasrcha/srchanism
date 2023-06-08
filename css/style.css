@@ -184,11 +184,20 @@ header .header__icons i:nth-child(2) {
 
 main {
   height: 100%;
+}
+main .rooms {
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   gap: 0.5rem;
   padding: 1rem;
+}
+main .about-me, main .byf, main .dfi, main .favs, main .edits, main .tops, main .fanfics {
+  display: none;
+}
+main .open-rooms {
+  display: flex;
 }
 
 nav {
@@ -271,6 +280,9 @@ nav .nav__mid section .categoria ul {
   list-style: none;
   display: flex;
   flex-direction: column;
+}
+nav .nav__mid section .categoria ul li {
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=style.css.map */

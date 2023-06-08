@@ -1,8 +1,20 @@
 main {
     height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    gap: .5rem;
-    padding: 1rem;
+
+    .rooms {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        gap: .5rem;
+        padding: 1rem;
+    }
+
+    .about-me, .byf, .dfi, .favs, .edits, .tops, .fanfics {
+        display: none;
+    }
+
+    .open-rooms {
+        display: flex;
+    }
 }

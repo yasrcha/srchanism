@@ -66,11 +66,11 @@ nav {
                     display: flex;
                     align-items: center;
                     justify-content: space-between;
-
                     div {
                         display: flex;
                         align-items: center;
                         gap: .5rem;
+
                         i {
                             font-size: .75rem;
                         }
@@ -89,6 +89,10 @@ nav {
                     list-style: none;
                     display: flex;
                     flex-direction: column;
+
+                    li {
+                        cursor: pointer;
+                    }
                 }
             }
         }
